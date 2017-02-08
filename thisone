@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	//variable declaration
+	float Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, Average = 0;
+	int Total = 0;
+	
+	cout << " Please enter the Number of meteorites passed on Monday: ";
+	cin >> Monday;
+	cout << " The number of meteorites that passed on Monday was " << Monday << endl;
+	
+	cout << " Please enter the Number of meteorites passed on Tuesday: ";
+	cin >> Tuesday;
+	cout << " The number of meteorites that passed on Tuesday was " << Tuesday << endl;
+	
+	cout << " Please enter the Number of meteorites passed on Wednesday: ";
+	cin >> Wednesday;
+	cout << " The number of meteorites that passed on Wednesday " << Wednesday  << endl;
+	
+	cout << " Please enter the Number of meteorites passed on Thursday: ";
+	cin >> Thursday;
+	cout << " The number of meteorites that passed on Thursday " << Thursday  << endl;
+	
+	cout << " Please enter the Number of meteorites passed on Friday: ";
+	cin >> Friday;
+	cout << " The number of meteorites that passed on Friday " << Friday << endl;
+	
+	cout << " Please enter the Number of meteorites passed on Saturday: ";
+	cin >> Saturday;
+	cout << " The number of meteorites that passed on Saturday " << Saturday << endl;
+	
+	cout << " Please enter the Number of meteorites passed on Sunday: ";
+	cin >> Sunday;
+	cout << " The number of meteorites that passed on Sunday " << Sunday << endl;
+	
+	Total = Monday + Tuesday + Wednesday + Thursday + Friday + Saturday + Sunday;
+	Average = Total / 7;
+	cout << " The total number of meteorites that passed the earth for the week was " << Total << endl;
+	cout << " And the Average number of meteorites that passed the earth per day was " << Average << endl;
+	
+	
+	
+	system("pause");
+	return 0;
+}
